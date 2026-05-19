@@ -7,6 +7,15 @@ Live interactive demo: [raanank10.github.io/Medical-C5-System-For-SAR](https://r
 
 ![C5 Sentinel-SAR command dashboard](assets/command_dashboard.png)
 
+## What To Review First
+
+| Time available | Start here |
+|---|---|
+| 30 seconds | Dashboard image, KPI table, and Skills Demonstrated |
+| 2 minutes | `sql/kpi_views.sql` command summary and stockout-risk snippets |
+| 5 minutes | `analytics/kpis.py`, `docs/METRICS_DICTIONARY.md`, and sample AAR report |
+| Interview prep | `docs/INTERVIEW_TALK_TRACK.md` |
+
 ## Why This Repo Exists
 
 C5 Sentinel-SAR is a mass-casualty incident command system for search-and-rescue medical teams. The operational repository contains the full product specification, UI prototype, database schema, and field workflow.
@@ -27,6 +36,15 @@ The core product question:
 | Data modeling | Event-sourced patient log, append-only inventory ledger, read-model views |
 | Dashboard thinking | Commander view, alert prioritization, triage distribution, stockout risk |
 | Communication | Executive summary, metrics dictionary, case-study narrative |
+
+## Analyst Case Study Summary
+
+| Question | Analytical answer |
+|---|---|
+| What is happening now? | Active patients, triage mix, open critical alerts, active medics |
+| What needs action first? | Priority score combining triage, vitals, tourniquet state, and stale assessment age |
+| What could fail next? | Stockout risk, stale device sync, medic overload |
+| What happened after the incident? | AAR report with KPI summary, timeline, and operational lessons |
 
 ## Analytics Package
 
@@ -62,6 +80,7 @@ flowchart LR
 | `sql/kpi_views.sql` | Curated SQL examples showing command KPIs and risk logic |
 | `docs/METRICS_DICTIONARY.md` | Metric definitions, source tables, and thresholds |
 | `docs/CASE_STUDY_NOTES.md` | Product analytics framing for interviews |
+| `docs/INTERVIEW_TALK_TRACK.md` | Short narrative for recruiter and hiring-manager conversations |
 | `assets/` | Dashboard and analytics visuals for fast portfolio scanning |
 
 ## Run The Demo Analytics

@@ -27,6 +27,7 @@ The result is a compact analytics package with Python KPI computation, SQL KPI v
 | Stockout risk | I can turn historical usage into forward-looking operational risk |
 | Sync latency p95 | I can measure trust in offline-first data |
 | Cartesian join fix | I can catch subtle SQL bugs that would mislead decision makers |
+| 90-case pytest suite + real-incident export path | I test analytics code like production code, and I designed the KPI engine to run unmodified against real exported event data, not just the synthetic demo |
 
 ## Product Analyst Angle
 

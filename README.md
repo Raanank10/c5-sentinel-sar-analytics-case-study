@@ -36,6 +36,7 @@ The core product question:
 | Data modeling | Event-sourced patient log, append-only inventory ledger, read-model views |
 | Dashboard thinking | Commander view, alert prioritization, triage distribution, stockout risk |
 | Communication | Executive summary, metrics dictionary, case-study narrative |
+| Testing discipline | 90-case pytest suite covering the KPI engine, DB layer, charts, and report generation |
 
 ## Analyst Case Study Summary
 
@@ -94,6 +95,10 @@ python seed_demo_db.py
 Then open `analytics/aar_report_v1_1.html` to inspect the generated after-action review sample.
 
 The package also includes `analytics_demo.ipynb` for notebook-based exploration.
+
+Run the test suite with `python -m pytest` (90 cases across the KPI engine, DB layer, charts, and report generation — each test seeds its own temp database, independent of `rescue_demo_v1_1.db`).
+
+`export_live_incident.py` can also pull a real incident out of the live Supabase database into the same SQLite shape, so the identical KPI/report code runs unmodified against real event data — see the script's docstring for the table mapping.
 
 ## What I Would Discuss In An Interview
 

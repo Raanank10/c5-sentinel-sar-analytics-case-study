@@ -2,7 +2,7 @@
 
 ## Positioning
 
-This repo is designed for data analyst and product analyst interviews. It intentionally narrows the full C5 Sentinel-SAR operational system into the parts that show analytical judgment:
+This repo is the analyst-facing view of C5 Sentinel-SAR. It intentionally narrows the full C5 Sentinel-SAR operational system into the parts that show analytical judgment:
 
 - translating field workflows into measurable events
 - defining KPIs that support command decisions
@@ -22,9 +22,9 @@ The system is used during mass-casualty incidents, so the analytics layer has to
 | Are supplies becoming a blocker? | Inventory burn rate, stockout risk, open resupply requests |
 | Is offline sync trustworthy? | Sync latency p95, stale device count, unprocessed outbox count |
 
-## Interview Story
+## The Core Story
 
-The strongest interview story is not "I built a dashboard." It is:
+The strongest story is not "I built a dashboard." It is:
 
 1. I modeled a chaotic field workflow as an event stream.
 2. I projected the event stream into operational read models.

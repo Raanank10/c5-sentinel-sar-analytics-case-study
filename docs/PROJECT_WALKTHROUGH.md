@@ -1,4 +1,4 @@
-# Interview Talk Track
+# Project Walkthrough
 
 ## 30-Second Version
 
@@ -17,7 +17,7 @@ I built the analytics layer around four ideas:
 
 The result is a compact analytics package with Python KPI computation, SQL KPI views, a metrics dictionary, and an AAR report sample.
 
-## Best Technical Points To Mention
+## Key Technical Points
 
 | Topic | What it demonstrates |
 |---|---|

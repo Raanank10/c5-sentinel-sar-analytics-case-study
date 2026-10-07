@@ -14,7 +14,7 @@ Live interactive demo: [raanank10.github.io/Medical-C5-System-For-SAR](https://r
 | 30 seconds | Dashboard image, KPI table, and Skills Demonstrated |
 | 2 minutes | `sql/kpi_views.sql` command summary and stockout-risk snippets |
 | 5 minutes | `analytics/kpis.py`, `docs/METRICS_DICTIONARY.md`, and sample AAR report |
-| Interview prep | `docs/INTERVIEW_TALK_TRACK.md` |
+| Deep dive | [`docs/PROJECT_WALKTHROUGH.md`](docs/PROJECT_WALKTHROUGH.md) |
 
 ## Why This Repo Exists
 
@@ -79,8 +79,8 @@ flowchart LR
 | `analytics/` | Python KPI engine, demo DB, chart/report code, sample AAR HTML |
 | `sql/kpi_views.sql` | Curated SQL examples showing command KPIs and risk logic |
 | `docs/METRICS_DICTIONARY.md` | Metric definitions, source tables, and thresholds |
-| `docs/CASE_STUDY_NOTES.md` | Product analytics framing for interviews |
-| `docs/INTERVIEW_TALK_TRACK.md` | Short narrative for recruiter and hiring-manager conversations |
+| `docs/CASE_STUDY_NOTES.md` | Product analytics framing and design rationale |
+| `docs/PROJECT_WALKTHROUGH.md` | 30-second and 2-minute project narrative, key technical points |
 | `assets/` | Dashboard and analytics visuals for fast portfolio scanning |
 
 ## Run The Demo Analytics
@@ -95,7 +95,7 @@ Then open `analytics/aar_report_v1_1.html` to inspect the generated after-action
 
 The package also includes `analytics_demo.ipynb` for notebook-based exploration.
 
-## What I Would Discuss In An Interview
+## Design Decisions Worth Discussing
 
 1. Why the event log is the right source of truth for offline-first emergency workflows.
 2. How to choose KPI thresholds that create action instead of dashboard noise.
